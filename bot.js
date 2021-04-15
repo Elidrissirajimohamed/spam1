@@ -56,7 +56,7 @@ if (message.content.startsWith(prefix + 'setgame')) {
 const queue = new Map();
 client.on('ready', function() {
 	console.log(`i am ready ${client.user.username}`);
-    client.user.setGame('[𝔻GF] 4 Life',"https://www.twitch.tv/peery13");
+    client.user.setGame('Ramadn karim',"https://www.twitch.tv/peery13");
 });
 
 
